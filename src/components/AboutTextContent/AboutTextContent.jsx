@@ -1,5 +1,5 @@
 import React from 'react';
-import "./AboutTextContent.scss"
+import "./AboutTextContent.scss";
 import {store} from "../../store/store";
 
 const {textSectionData} = store;

@@ -7,7 +7,9 @@ const AboutImage = () => {
     return (
         <>
             {
-                images.map(item => <img key={item.id} src={item.img} alt=""/>)
+                images.map(item => <div className="image__cards" key={item.id}>
+                    <img className="image" src={item.img} alt=""/>
+                </div>)
             }
 
         </>

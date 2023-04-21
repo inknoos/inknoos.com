@@ -8,14 +8,14 @@ const About = () => {
         <div className="about">
             <div className="about__content">
                 <div className="about__title">
-                        ABOUT THE EVENT
+                    ABOUT THE EVENT
                 </div>
                 <div className="about__data">
-                         <AboutTextContent />
+                    <AboutTextContent/>
                 </div>
-                    <div className="about__image">
-                        <AboutImage />
-                    </div>
+                <div className="about__image">
+                    <AboutImage/>
+                </div>
 
             </div>
         </div>
