@@ -1,0 +1,11 @@
+.about__cover {
+  width: 45%;
+}
+.about__cover .about__subtitle {
+  font-weight: bold;
+}
+.about__cover .about__text {
+  font-size: 13px;
+}
+
+/*# sourceMappingURL=AboutTextContent.css.map */
