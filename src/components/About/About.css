@@ -9,6 +9,7 @@
 }
 .about .about__content .about__title {
   height: 128px;
+  padding-top: 30px;
   font-weight: bold;
   font-size: 40px;
   color: #FFCC00;

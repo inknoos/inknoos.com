@@ -1,5 +1,4 @@
 import './slider.css';
-import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -17,12 +16,15 @@ export default function App() {
 
     const Slides = [
         {
+            id: 1,
             src: slide1
         },
         {
+            id:2,
             src: slide2
         },
         {
+            id:3,
             src: slide3
         }
     ]
@@ -45,7 +47,7 @@ export default function App() {
                 {
                     Slides.map((e) => {
                         return (
-                            <SwiperSlide className='slide'><img src={e.src}></img></SwiperSlide>
+                            <SwiperSlide key={e.id} className='slide'><img src={e.src}></img></SwiperSlide>
                         )
                     })
                 }
