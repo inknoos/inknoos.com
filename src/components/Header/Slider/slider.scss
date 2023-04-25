@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.SliderBox {
+    width: 100%;
+    height: 100%;
+
+    .mySwiper {
+        width: 100%;
+        height: 100%;
+        background-color: gray;
+
+        .slide {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .swiper-button-prev{
+            display: none;
+        }
+        .swiper-button-next{
+            display: none;
+        }
+        .swiper-pagination-bullet{
+            background-color: whitesmoke;
+        }
+
+        .swiper-pagination-bullet-active{
+            background-color: #ffcc00;
+        }
+    }
+}

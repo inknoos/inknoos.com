@@ -1,0 +1,21 @@
+.about__cover {
+  width: 45%;
+}
+.about__cover .about__subtitle {
+  font-weight: bold;
+  font-size: 19px;
+  padding-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+  .about__cover {
+    width: 90%;
+  }
+  .about__cover .about__subtitle {
+    padding-top: 35px;
+  }
+  .about__cover .about__text {
+    padding-top: 16px;
+    font-size: 13px;
+  }
+}/*# sourceMappingURL=AboutTextContent.css.map */
