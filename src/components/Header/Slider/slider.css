@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.SliderBox {
+  width: 100%;
+  height: 100%;
+}
+.SliderBox .mySwiper {
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+}
+.SliderBox .mySwiper .slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SliderBox .mySwiper .slide img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.SliderBox .mySwiper .swiper-button-prev {
+  display: none;
+}
+.SliderBox .mySwiper .swiper-button-next {
+  display: none;
+}
+.SliderBox .mySwiper .swiper-pagination-bullet {
+  background-color: whitesmoke;
+}
+.SliderBox .mySwiper .swiper-pagination-bullet-active {
+  background-color: #ffcc00;
+}
+
+/*# sourceMappingURL=slider.css.map */
